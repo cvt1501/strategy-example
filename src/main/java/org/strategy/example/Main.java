@@ -1,10 +1,10 @@
 package org.strategy.example;
 
-import org.strategy.example.payment.Payment;
+import org.strategy.example.payment.strategies.Payment;
 import org.strategy.example.payment.PaymentService;
-import org.strategy.example.payment.impl.CreditCardPayment;
-import org.strategy.example.payment.impl.DebitCardPayment;
-import org.strategy.example.payment.impl.TransferPayment;
+import org.strategy.example.payment.strategies.CreditCardPayment;
+import org.strategy.example.payment.strategies.DebitCardPayment;
+import org.strategy.example.payment.strategies.TransferPayment;
 
 import java.util.Map;
 

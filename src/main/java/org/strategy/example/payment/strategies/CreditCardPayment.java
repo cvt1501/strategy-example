@@ -1,8 +1,6 @@
-package org.strategy.example.payment.impl;
+package org.strategy.example.payment.strategies;
 
-import org.strategy.example.payment.Payment;
-
-public class CreditCardPayment implements Payment {
+public final class CreditCardPayment implements Payment {
 
     private static final int tax = 5;
 
